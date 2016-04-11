@@ -59,44 +59,75 @@
   left: 10px;
   width: 60px;
   height: 125px;
-  border-left: solid 16px #000000;
+  border-left: solid 8px #000000;
 }
 .B:before {
   position: absolute;
   content: '';
-  width: 52px;
-  height: 39px;
-  border-width: 15px 15px 10px 0;
+  width: 65px;
+  height: 65px;
+  left:-20px;
+  border-width: 3px 3px 3px 3px;
   border-color: #000000;
   border-style: solid;
-  -webkit-border-radius: 0 240% 180% 0 / 0 180% 180% 0;
-  -moz-border-radius: 0 240% 180% 0 / 0 180% 180% 0;
-  -ms-border-radius: 0 240% 180% 0 / 0 180% 180% 0;
-  -o-border-radius: 0 240% 180% 0 / 0 180% 180% 0;
-  border-radius: 0 240% 180% 0 / 0 180% 180% 0;
+  -webkit-border-radius: 50% / 50%;
+  -moz-border-radius: 50% / 50%;
+  -ms-border-radius: 50% / 50%;
+  -o-border-radius: 50% / 50%;
+  border-radius: 50% / 50%;
 }
 .B:after {
   position: absolute;
   content: '';
   bottom: 0;
-  width: 58px;
-  height: 43px;
-  border-width: 10px 15px 15px 0;
+  left:-20px;
+  width: 75px;
+  height: 75px;
+  border-width: 5px 5px 5px 5px;
   border-color: #000000;
   border-style: solid;
-  -webkit-border-radius: 0 180% 220% 0 / 0 180% 180% 0;
-  -moz-border-radius: 0 180% 220% 0 / 0 180% 180% 0;
-  -ms-border-radius: 0 180% 220% 0 / 0 180% 180% 0;
-  -o-border-radius: 0 180% 220% 0 / 0 180% 180% 0;
-  border-radius: 0 180% 220% 0 / 0 180% 180% 0;
+  -webkit-border-radius: 50% / 50%;
+  -moz-border-radius: 50% / 50%;
+  -ms-border-radius: 50% / 50%;
+  -o-border-radius: 50% / 50%;
+  border-radius: 50% / 50%;
+  }
+.B .valgekast {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  position: absolute;
+  content: '';
+  top: 0px;
+  left: -23px;
+  background-color: #ffff00;
+  width: 15px;
+  height: 125px;
+  z-index: 2;
+   }
+  .B .valgekast2 {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  position: absolute;
+  content: '';
+  top: 60px;
+  left: -23px;
+  background-color: #ff00ff;
+  width: 15px;
+  height: 25px;
 }
 .C {
   position: relative;
   top: 12.5px;
   left: 10px;
-  width: 84px;
-  height: 95px;
-  border-width: 15px 12px 15px 16px;
+  width: 120px;
+  height: 120px;
+  border-width: 3px 3px 3px 3px;
   border-color: #000000;
   border-style: solid;
   -webkit-border-radius: 50%;
@@ -113,11 +144,25 @@
   transform: rotate(45deg);
   position: absolute;
   content: '';
-  top: 2px;
-  left: 49px;
-  background-color: #ffffff;
-  width: 90px;
-  height: 90px;
+  top: 5px;
+  left: 100px;
+  background-color: #ffff00;
+  width: 40px;
+  height: 40px;
+  }
+  .C .valgekast {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  content: '';
+  top: 55px;
+  left: 100px;
+  background-color: #ff00ff;
+  width: 40px;
+  height: 50px;
 }
 .D {
   position: relative;
@@ -570,9 +615,9 @@
   -o-transform: rotate(14deg);
   transform: rotate(14deg);
   position: relative;
-  width: 105px;
-  height: 150px;
-  top: 10px;
+  width: 160px;
+  height: 125px;
+  top: 15px;
   left: 90px;
 }
 .S:before {
@@ -583,16 +628,18 @@
   transform: rotate(18deg);
   position: absolute;
   content: '';
-  width: 44px;
-  height: 40px;
-  border-width: 14px 0 15px 15.5px;
+  width: 75px;
+  left: -12px;
+  top: 10px;
+  height: 75px;
+  border-width: 3px 3px 3px 3px;
   border-color: #000000;
   border-style: solid;
   -webkit-border-radius: 220% 0 0 150% / 150% 0 0 100%;
   -moz-border-radius: 220% 0 0 150% / 150% 0 0 100%;
   -ms-border-radius: 220% 0 0 150% / 150% 0 0 100%;
   -o-border-radius: 220% 0 0 150% / 150% 0 0 100%;
-  border-radius: 220% 0 0 150% / 150% 0 0 100%;
+  border-radius: 50% / 50%;
 }
 .S:after {
   -webkit-transform: rotate(198deg);
@@ -602,19 +649,49 @@
   transform: rotate(198deg);
   position: absolute;
   content: '';
-  top: 65px;
-  left: 21px;
-  width: 52px;
-  height: 44px;
-  border-width: 14px 0 15px 15px;
+  top: 52px;
+  left: 0px;
+  width: 75px;
+  height: 75px;
+  border-width: 5px 5px 5px 5px;
   border-color: #000000;
   border-style: solid;
   -webkit-border-radius: 240% 0 0 110% / 140% 0 0 100%;
   -moz-border-radius: 240% 0 0 110% / 140% 0 0 100%;
   -ms-border-radius: 240% 0 0 110% / 140% 0 0 100%;
   -o-border-radius: 240% 0 0 110% / 140% 0 0 100%;
-  border-radius: 240% 0 0 110% / 140% 0 0 100%;
-}
+  border-radius: 50% / 50%;
+  }
+  .S .valgekast {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(-60deg);
+  position: absolute;
+  content: '';
+  top: 80px;
+  left: -17px;
+  background-color: #ffff00;
+  width: 40px;
+  height: 50px;
+  z-index: 2;
+    }
+  .S .valgekast2 {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(-60deg);
+  position: absolute;
+  content: '';
+  top: 15px;
+  left: 50px;
+  background-color: #ff00ff;
+  width: 40px;
+  height: 50px;
+
+    }
 .T {
   position: relative;
   top: 12.5px;
