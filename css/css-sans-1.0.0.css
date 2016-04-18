@@ -293,7 +293,7 @@
 .H:before {
   position: absolute;
   content: '';
-  top: 25px;
+  top: 38px;
   left: 0;
   width: 60px;
   height: 3px;
@@ -846,7 +846,6 @@
 .V {
   position: relative;
   top: 12.5px;
-  left: 40px;
   width: 48px;
 }
 .V:before {
@@ -860,7 +859,7 @@
   top: 0;
   left: 0;
   height: 125px;
-  width: 48;
+  width: 48px;
   border-left: solid 8px #000000;
 }
 .V:after {
@@ -893,7 +892,6 @@
 .W {
   position: relative;
   top: 12.5px;
-  left: 125px;
   width: 48px;
 }
 .W:before {
@@ -979,7 +977,7 @@
 .X {
   position: relative;
   top: 12.5px;
-  left: 250px;
+  left: 25px;
   width: 16px;
   height: 125px;
 }
@@ -1099,4 +1097,22 @@
   -moz-border-radius: 50% / 50%;
   -ms-border-radius: 50% / 50%;
   -o-border-radius: 50% / 50%;
+}
+
+.O .tapp {
+  position: absolute;
+  background-color: #000000;
+  left: 0;
+  top: 0;
+  width: 10px;
+  height: 10px;
+}
+
+.O .tapp2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #000000;
+  width: 10px;
+  height: 10px;
 }
