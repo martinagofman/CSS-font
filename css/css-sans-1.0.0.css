@@ -1,12 +1,6 @@
-/*! 
- * css-sans.css v1.0.0
- * (c) 2015 Yusuke Sugomori
- * MIT License | http://yusugomori.com/license/mit
- */
 
 .A {
   position: relative;
-  left: 10px;
   width: 136px;
   height: 129.5px;
   border-bottom: solid 8px #000000;
@@ -56,7 +50,6 @@
 .B {
   position: relative;
   top: 12.5px;
-  left: 10px;
   width: 60px;
   height: 125px;
   border-left: solid 8px #000000;
@@ -124,7 +117,6 @@
 .C {
   position: relative;
   top: 12.5px;
-  left: 10px;
   width: 120px;
   height: 120px;
   border-width: 3px 3px 3px 3px;
@@ -167,7 +159,6 @@
 .D {
   position: relative;
   top: 12.5px;
-  left: 10px;
   width: 70px;
   border-left: solid 8px #000000;
   height: 125px;
@@ -191,7 +182,6 @@
 .E {
   position: relative;
   top: 12.5px;
-  left: 10px;
   width: 63px;
   height: 115px;
   border-width: 5px 0 5px 8px;
@@ -210,7 +200,6 @@
 .F {
   position: relative;
   top: 12.5px;
-  left: 10px;
   width: 63px;
   height: 120px;
   border-width: 5px 0 0 8px;
@@ -229,7 +218,6 @@
 .G {
   position: relative;
   top: 13px;
-  left: -10px;
   width: 115px;
   height: 115px;
   border-width: 5px 5px 5px 5px;
@@ -283,7 +271,6 @@
 .H {
   position: relative;
   top: 12.5px;
-  left: 10px;
   width: 60px;
   height: 125px;
   border-width: 0 5px 0 8px;
@@ -293,7 +280,7 @@
 .H:before {
   position: absolute;
   content: '';
-  top: 38px;
+  top: 25px;
   left: 0;
   width: 60px;
   height: 3px;
@@ -303,7 +290,6 @@
   z-index: 1;  
   position: relative;
   top: 12.5px;
-  left: 20px;
   width: 8px;
   height: 125px;
   background-color: #000000;
@@ -311,8 +297,7 @@
 .J {
   position: relative;
   top: 12.5px;
-  left: -5px;
-  width: 75px;
+  width: 50px;
   height: 66px;
   border-right: solid 8px #000000;
 }
@@ -341,7 +326,7 @@
   position: absolute;
   content: '';
   top: 40px;
-  left: 15px;
+  left: -10px;
   width: 60px;
   height: 60px;
   background-color: #ffff00;
@@ -355,7 +340,7 @@
   position: absolute;
   content: '';
   top: 0px;
-  left: 75px;
+  left: 50px;
   background-color: #000000;
   width: 8px;
   height: 95px;
@@ -363,7 +348,6 @@
 .K {
   position: relative;
   top: 12.5px;
-  left: 10px;
   width: 80px;
   height: 125px;
   border-left: solid 8px #000000;
@@ -415,7 +399,6 @@
 .L {
   position: relative;
   top: 12.5px;
-  left: 20px;
   width: 63px;
   height: 122px;
   border-width: 0 0 3px 8px;
@@ -425,7 +408,6 @@
 .M {
   position: relative;
   top: 12.5px;
-  left: 10px;
   width: 98px;
   height: 125px;
   border-width: 0 5px 0 3px;
@@ -492,7 +474,6 @@
 .N {
   position: relative;
   top: 12.5px;
-  left: 10px;
   width: 63px;
   height: 125px;
   border-width: 0 3px 0 5px;
@@ -544,7 +525,6 @@
 .O {
   position: relative;
   top: 12.5px;
-  left: 10px;
   width: 115px;
   height: 115px;
   border-width: 5px 5px 5px 5px;
@@ -559,7 +539,6 @@
 .P {
   position: relative;
   top: 12.5px;
-  left: 10px;
   width: 50px;
   height: 125px;
   border-left: solid 8px #000000;
@@ -597,7 +576,6 @@
 .Q {
   position: relative;
   top: 12.5px;
-  left: 10px;
   width: 115px;
   height: 115px;
   border-width: 5px 5px 5px 5px;
@@ -626,7 +604,6 @@
 .R {
   position: relative;
   top: 12.5px;
-  left: 20px;
   width: 60px;
   height: 125px;
   border-left: solid 8px #000000;
@@ -685,7 +662,6 @@
   width: 65px;
   height: 125px;
   top: 3px;
-  left: 20px;
 }
 .S:before {
   -webkit-transform: rotate(18deg);
@@ -761,7 +737,6 @@
 .T {
   position: relative;
   top: 12.5px;
-  left: 10px;
   width: 100px;
   height: 125px;
   border-top: solid 3px #000000;
@@ -806,7 +781,6 @@
 .U {
   position: relative;
   top: 12.5px;
-  left: 10px;
   width: 60px;
   height: 87px;
   border-width: 0 5px 0 5px;
@@ -846,7 +820,7 @@
 .V {
   position: relative;
   top: 12.5px;
-  width: 48px;
+  width: 130px;
 }
 .V:before {
   -webkit-transform: skew(29deg, 0);
@@ -859,7 +833,8 @@
   top: 0;
   left: 0;
   height: 125px;
-  width: 48px;
+  margin-left: 20px;
+  width: 48;
   border-left: solid 8px #000000;
 }
 .V:after {
@@ -871,7 +846,7 @@
   position: absolute;
   content: '';
   top: 0;
-  right: -24px;
+  right: 38px;
   height: 125px;
   border-left: solid 3px #000000;
   }
@@ -884,7 +859,7 @@
   position: absolute;
   content: '';
   top: 110px;
-  left: 39px;
+  left: 58px;
   background-color: #ffff00;
   width: 15px;
   height: 25px;
@@ -892,7 +867,7 @@
 .W {
   position: relative;
   top: 12.5px;
-  width: 48px;
+  width: 165px;
 }
 .W:before {
   -webkit-transform: skew(29deg, 0);
@@ -904,6 +879,7 @@
   content: '';
   top: 0;
   left: 0;
+  margin-left: 26px;
   height: 125px;
   border-left: solid 8px #000000;
 }
@@ -916,7 +892,7 @@
   position: absolute;
   content: '';
   top: 0;
-  right: -24px;
+  right: 67px;
   height: 125px;
   border-left: solid 3px #000000;
 }
@@ -929,7 +905,7 @@
   position: absolute;
   content: '';
   top: 110px;
-  left: 39px;
+  left: 65px;
   background-color: #ffff00;
   width: 15px;
   height: 25px;
@@ -943,7 +919,7 @@
   position: absolute;
   content: '';
   top: 0;
-  right: 4px;
+  right: 100px;
   height: 125px;
   border-left: solid 8px #000000;
 }
@@ -956,7 +932,7 @@
   position: absolute;
   content: '';
   top: 0;
-  right: -60px;
+  right: 36px;
   height: 125px;
   border-left: solid 3px #000000;
   }
@@ -969,7 +945,7 @@
   position: absolute;
   content: '';
   top: 110px;
-  left: 75.5px;
+  left: 96.5px;
   background-color: #ff00ff;
   width: 15px;
   height: 25px;
@@ -977,8 +953,7 @@
 .X {
   position: relative;
   top: 12.5px;
-  left: 25px;
-  width: 16px;
+  width: 90px;
   height: 125px;
 }
 .X:before {
@@ -990,7 +965,7 @@
   position: absolute;
   content: '';
   top: 0;
-  left: 0;
+  margin-left: 25px;
   width: 8px;
   height: 125px;
   background-color: #000000;
@@ -1004,7 +979,7 @@
   position: absolute;
   content: '';
   top: 0;
-  right: 9px;
+  left: 25px;
   width: 3px;
   height: 125px;
   background-color: #000000;
@@ -1012,10 +987,8 @@
 .Y {
   position: relative;
   top: 92.5px;
-  left: 310px;
-  width: 0px;
+  width: 70px;
   height: 45px;
-  background-color: #000000;
 }
 .Y:before {
   -webkit-transform: skew(28deg, 0);
@@ -1026,7 +999,7 @@
   position: absolute;
   content: '';
   top: -80px;
-  left: -16px;
+  left: 10px;
   width: 8px;
   height: 70px;
   background-color: #000000;
@@ -1040,7 +1013,7 @@
   position: absolute;
   content: '';
   top: -80px;
-  right: -7px;
+  left: 35px;
   width: 3px;
   height: 125px;
   background-color: #000000;
@@ -1054,7 +1027,7 @@
   position: absolute;
   content: '';
   top: -25px;
-  left: 5px;
+  left: 36px;
   background-color: #ffff00;
   width: 15px;
   height: 25px;
@@ -1063,7 +1036,6 @@
 .Z {
   position: relative;
   top: 12.5px;
-  left: 350px;
   width: 73px;
   height: 109px;
   border-width: 8px 0 8px 0;
@@ -1087,7 +1059,6 @@
 .O {
   position: relative;
   top: 12.5px;
-  left: 10px;
   width: 115px;
   height: 115px;
   border-width: 5px 5px 5px 5px;
@@ -1098,21 +1069,202 @@
   -ms-border-radius: 50% / 50%;
   -o-border-radius: 50% / 50%;
 }
-
+.O .kriips {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  position: absolute;
+  content: '';
+  top: -5px;
+  left: -2px;
+  background-color: #000000;
+  width: 120px;
+  height: 3px;
+}
+.A {
+  position: relative;
+  width: 136px;
+  height: 129.5px;
+  border-bottom: solid 8px #000000;
+}
+.A:before {
+  -webkit-transform: skew(-29deg, 0);
+  -moz-transform: skew(-29deg, 0);
+  -ms-transform: skew(-29deg, 0);
+  -o-transform: skew(-29deg, 0);
+  transform: skew(-29deg, 0);
+  position: absolute;
+  content: '';
+  top: 12.5px;
+  left: 30px;
+  width: 5px;
+  height: 125px;
+  background-color: #000000;
+}
+.A:after {
+  -webkit-transform: skew(29deg, 0);
+  -moz-transform: skew(29deg, 0);
+  -ms-transform: skew(29deg, 0);
+  -o-transform: skew(29deg, 0);
+  transform: skew(29deg, 0);
+  position: absolute;
+  content: '';
+  top: 12.5px;
+  left: 101px;
+  width: 3px;
+  height: 125px;
+  background-color: #000000;
+  }
+.A .valgekast {
+  -webkit-transform: rotate(-29deg);
+  -moz-transform: rotate(-29deg);
+  -ms-transform: rotate(-29deg);
+  -o-transform: rotate(-29deg);
+  transform: rotate(-29deg);
+  position: absolute;
+  content: '';
+  top: 120px;
+  left: 135px;
+  background-color: #ffff00;
+  width: 15px;
+  height: 25px;
+  }
+.A .tapp{
+  position: relative;
+  top: 12px;
+  width: 15px;
+  height: 15px;
+  border-width: 3px 3px 3px 3px;
+  border-color: #000000;
+  border-style: solid;
+  -webkit-border-radius: 50% ;
+  -moz-border-radius: 50% ;
+  -ms-border-radius: 50% ;
+  -o-border-radius: 50% ;
+  border-radius: 50%;
+}
+.A .tapp2 {
+  position: relative;
+  top: 12px;
+  width: 15px;
+  height: 15px;
+  border-width: 3px 3px 3px 3px;
+  border-color: #000000;
+  border-style: solid;
+  -webkit-border-radius: 50% ;
+  -moz-border-radius: 50% ;
+  -ms-border-radius: 50% ;
+  -o-border-radius: 50% ;
+  border-radius: 50%;
+}  
+.O {
+  position: relative;
+  top: 12.5px;
+  width: 115px;
+  height: 115px;
+  border-width: 5px 5px 5px 5px;
+  border-color: #000000;
+  border-style: solid;
+  -webkit-border-radius: 50% / 50%;
+  -moz-border-radius: 50% / 50%;
+  -ms-border-radius: 50% / 50%;
+  -o-border-radius: 50% / 50%;
+}  
 .O .tapp {
-  position: absolute;
-  background-color: #000000;
-  left: 0;
-  top: 0;
-  width: 10px;
-  height: 10px;
+  position: relative;
+  top: -5px;
+  width: 15px;
+  height: 15px;
+  border-width: 3px 3px 3px 3px;
+  border-color: #000000;
+  border-style: solid;
+  -webkit-border-radius: 50% ;
+  -moz-border-radius: 50% ;
+  -ms-border-radius: 50% ;
+  -o-border-radius: 50% ;
+  border-radius: 50%;
+  } 
+.O .tapp2{
+  position: relative;
+  top: -5px;
+  width: 15px;
+  height: 15px;
+  border-width: 3px 3px 3px 3px;
+  border-color: #000000;
+  border-style: solid;
+  -webkit-border-radius: 50% ;
+  -moz-border-radius: 50% ;
+  -ms-border-radius: 50% ;
+  -o-border-radius: 50% ;
+  border-radius: 50%;
+  }
+.U {
+  position: relative;
+  top: 12.5px;
+  width: 60px;
+  height: 87px;
+  border-width: 0 5px 0 5px;
+  border-color: #000000;
+  border-style: solid;
 }
+.U:before {
+  position: absolute;
+  content: '';
+  top: 55px;
+  left: -5px;
+  width: 60px;
+  height: 60px;
+  border-width: 5px 5px 5px 5px;
+  border-color: #000000;
+  border-style: solid;
+  -webkit-border-radius: 50% 50% / 50% 50%;
+  -moz-border-radius: 50% 50% / 50% 50%;
+  -ms-border-radius: 50% 50% / 50% 50%;
+  -o-border-radius: 50% 50% / 50% 50%;
+  border-radius: 50% 50% / 50% 50%;
+}
+  .U .valgekast {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  position: absolute;
+  content: '';
+  top: 40px;
+  left: 10px;
+  background-color: #ffff00;
+  width: 40px;
+  height: 60px;
+}
+.U .tapp {
+  position: relative;
+  top: 0px;
+  width: 15px;
+  height: 15px;
+  border-width: 3px 3px 3px 3px;
+  border-color: #000000;
+  border-style: solid;
+  -webkit-border-radius: 50% ;
+  -moz-border-radius: 50% ;
+  -ms-border-radius: 50% ;
+  -o-border-radius: 50% ;
+  border-radius: 50%;
+}
+.U .tapp2 {
+  position: relative;
+  top: 0px;
+  width: 15px;
+  height: 15px;
+  border-width: 3px 3px 3px 3px;
+  border-color: #000000;
+  border-style: solid;
+  -webkit-border-radius: 50% ;
+  -moz-border-radius: 50% ;
+  -ms-border-radius: 50% ;
+  -o-border-radius: 50% ;
+  border-radius: 50%;
+}  
 
-.O .tapp2 {
-  position: absolute;
-  right: 0;
-  top: 0;
-  background-color: #000000;
-  width: 10px;
-  height: 10px;
-}
