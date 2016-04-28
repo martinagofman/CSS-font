@@ -293,6 +293,21 @@
   width: 8px;
   height: 125px;
   background-color: #000000;
+  }
+  .I .valgekast {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  position: absolute;
+  content: '';
+  top: 0px;
+  left: 5px;
+  background-color: #ffffff;
+  width: 15px;
+  height: 125px;
+  z-index: 2;
 }
 .J {
   position: relative;
@@ -1266,5 +1281,79 @@
   -ms-border-radius: 50% ;
   -o-border-radius: 50% ;
   border-radius: 50%;
-}  
+}
+.nine {
+  position: relative;
+  top: 52px;
+  width: 80px;
+  height: 125px;
+  border-left: solid 3px #000000;
+  left: 50px;
+   -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(40deg);
+}
+.nine:before {
+  position: absolute;
+  content: '';
+  width: 75px;
+  height: 75px;
+  left: -85px;
+  top: 10px;
+  border-width: 5px 5px 5px 5px;
+  border-color: #000000;
+  border-style: solid;
+  -webkit-border-radius: 50% / 50%;
+  -moz-border-radius: 50% / 50%;
+  -ms-border-radius: 50% / 50%;
+  -o-border-radius: 50% / 50%;
+  border-radius: 50% / 50%;
+   }
+.nine .valgekast {
+  -webkit-transform: rotate(70deg);
+  -moz-transform: rotate(70deg);
+  -ms-transform: rotate(70deg);
+  -o-transform: rotate(70deg);
+  transform: rotate(70deg);
+  position: absolute;
+  content: '';
+  top: 17px;
+  left: -5px;
+  background-color: #ffffff;
+  width: 25px;
+  height: 25px;
+  z-index: 2;
+}
+.nine .valgekast2 {
+  -webkit-transform: rotate(70deg);
+  -moz-transform: rotate(70deg);
+  -ms-transform: rotate(70deg);
+  -o-transform: rotate(70deg);
+  transform: rotate(90deg);
+  position: absolute;
+  content: '';
+  top: -4px;
+  left: -10px;
+  background-color: #ffffff;
+  width: 25px;
+  height: 25px;
+  z-index: 2;
+}
+.nine .valgekast3 {
+  -webkit-transform: rotate(70deg);
+  -moz-transform: rotate(70deg);
+  -ms-transform: rotate(70deg);
+  -o-transform: rotate(70deg);
+  transform: rotate(84deg);
+  position: absolute;
+  content: '';
+  top: 40px;
+  left: -px;
+  background-color: #ffffff;
+  width: 25px;
+  height: 25px;
+  z-index: 2;
+}
 
